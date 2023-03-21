@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+  <header>
+    <div class="container" id="head-container">
+      <div class="col-one">
+        <h2><b>Calc</b></h2>
+      </div>
+      <div class="col-two">
+        <span>THEME</span>
+        <div class="row" id="row">
+          <div class="theme-one" id="theme-one" onclick="themeone()"></div>
+          <div class="theme-two" id="theme-two" onclick="themetwo()"></div>
+          <div class="theme-three" id="theme-three" onclick="themethree()"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section-one">
+    <div class="container">
+      <div class="screen" id="screen">
+
+      </div>
+    </div>
+
+  </section>
+  <section class="section-two">
+    <div class="container">
+      <div class="calc" id="calc">
+        <div class="num" id="7" onclick="seven_()">
+          <p>7</p>
+        </div>
+        <div class="num" id="8" onclick="eight_()">
+          <p>8</p>
+        </div>
+        <div class="num" id="9" onclick="nine_()">
+          <p>9</p>
+        </div>
+        <div class="fun" id="del" onclick="del_()">
+          <p>DEL</p>
+        </div>
+        <div class="num" id="4" onclick="four_()">
+          <p>4</p>
+        </div>
+        <div class="num" id="5" onclick="five_()">
+          <p>5</p>
+        </div>
+        <div class="num" id="6" onclick="six_()">
+          <p>6</p>
+        </div>
+        <div class="num" id="add" onclick="add_()">
+          <p>+</p>
+        </div>
+        <div class="num" id="1" onclick="one_()">
+          <p>1</p>
+        </div>
+        <div class="num" id="2" onclick="two_()">
+          <p>2</p>
+        </div>
+        <div class="num" id="3" onclick="three_()">
+          <p>3</p>
+        </div>
+        <div class="num" id="sub" onclick="sub_()">
+          <p>-</p>
+        </div>
+        <div class="num" id="." onclick="dot_()">
+          <p>.</p>
+        </div>
+        <div class="num" id="0" onclick="zero_()">
+          <p>0</p>
+        </div>
+        <div class="num" id="dev" onclick="dev_()">
+          <p>/</p>
+        </div>
+        <div class="num" id="mul" onclick="mul_()">
+          <p>x</p>
+        </div>
+        <div class="fun" id="reset" onclick="reset_()">
+          <p>RESET</p>
+        </div>
+        <div class="final" id="equal" onclick="equal_()">
+          <p>=</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
